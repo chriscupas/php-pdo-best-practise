@@ -3,6 +3,7 @@ $language="enus";
 include_once("locale/".$language.".php");
 include 'content.php';
 $content = new content;
+$data = array();
 
 switch($_SERVER['REQUEST_METHOD'])
 {
